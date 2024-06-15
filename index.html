@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    body {
+      margin: 0;
+      width: 1044px;
+      height: 800px;
+      background-color: #D5E1EF;
+    }
+
+    .conteiner-retangulo {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center
+    }
+
+    .caixa-externo {
+      box-sizing: border-box;
+      padding: 15px;
+      width: 320px;
+      height: 497px;
+      background: #FFFFFF;
+      border-radius: 20px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+    }
+
+    img {
+      border-radius: 10px;
+      width: 288px;
+      height: 288px;
+    }
+
+    .caixa-texto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 288px;
+      height: 129px;
+    }
+
+    h1 {
+      margin: 0;
+      padding: 0;
+      width: 288px;
+      height: 56px;
+      font-size: 22px;
+      font-family: "Outfit", sans-serif;
+    }
+
+    p {
+      color: #7D889E;
+      width: 256px;
+      height: 57px;
+      font-size: 15px;
+      font-family: "Outfit", sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="conteiner-retangulo">
+    <div class="caixa-externo">
+      <div>
+        <img src="./images/image-qr-code.png" alt="Qr Code">
+      </div>
+      <div class="caixa-texto">
+        <h1>Improve your front-end skills by building projects</h1>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
